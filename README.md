@@ -60,5 +60,22 @@ Java Development Kit (JDK) 8 or higher installed on your system.
 
 Compilation and Running
 
-The project is organized into packages (app, shortestPath, sorting). You will need to compile and run the main classes from the root directory of the project (Final application).
+The project is organized into packages (`app`, `shortestPath`, `sorting`). You will need to compile and run the main classes from the root directory of the project (`Final application`).
 
+```
+Final DS/
+├── app/
+│   ├── Main.java           # Main entry point for the Task Management System
+│   ├── TaskManager.java    # Manages the overall system logic
+│   ├── Task.java           # Task object definition
+│   ├── TaskList.java       # Linked List implementation for tasks
+│   ├── TaskStack.java      # Stack implementation for urgent tasks
+│   ├── TaskQueue.java      # Queue implementation for completed tasks
+│   └── ... (other support classes: Node, Category, etc.)
+├── shortestPath/
+│   ├── Main.java           # Main entry point for the Shortest Path demo
+│   ├── Graph.java          # Bellman-Ford implementation and graph structure
+│   └── DijkstraAlgorithm.java # Dijkstra's Algorithm implementation
+└── sorting/
+    ├── SortComparison.java # Main class for comparing sorting algorithms
+    └── Merge.java          # Implementation of Merge Sort
