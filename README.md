@@ -63,7 +63,7 @@ Compilation and Running
 The project is organized into packages (`app`, `shortestPath`, `sorting`). You will need to compile and run the main classes from the root directory of the project (`Final application`).
 
 ```
-Final DS/
+Final application/
 ├── app/
 │   ├── Main.java           # Main entry point for the Task Management System
 │   ├── TaskManager.java    # Manages the overall system logic
