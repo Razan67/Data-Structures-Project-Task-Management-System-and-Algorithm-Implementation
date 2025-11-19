@@ -41,3 +41,24 @@ This component compares the performance of two sorting algorithms on arrays of d
 | **Merge Sort** | A stable, efficient, comparison-based, divide-and-conquer sorting algorithm. | Implemented in `Merge.java` and timed in `SortComparison.java`. |
 | **Enhanced Selection Sort** | A variation of the standard Selection Sort. | Implemented and timed in `SortComparison.java`. |
 
+Key Classes: `SortComparison.java`, `Merge.java`
+
+Technology Stack
+
+•
+Language: Java
+
+•
+Environment: Standard Java Development Kit (JDK)
+
+Setup and Execution
+
+Prerequisites
+
+•
+Java Development Kit (JDK) 8 or higher installed on your system.
+
+Compilation and Running
+
+The project is organized into packages (app, shortestPath, sorting). You will need to compile and run the main classes from the root directory of the project (Final application).
+
